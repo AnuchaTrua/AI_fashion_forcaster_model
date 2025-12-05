@@ -1,0 +1,14 @@
+{
+  "window_size": 30,
+  "feature_cols": [
+    "total_qty",
+    "total_revenue",
+    "avg_discount",
+    "avg_rating",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "year"
+  ],
+  "target_col": "total_qty"
+}
