@@ -1,0 +1,5 @@
+pip install fastapi 'uvicorn[standard]' joblib tensorflow python-multipart pandas
+pip install "fastapi[all]"
+pip install fastapi-cors
+
+uvicorn fastapi_app:app --reload --port 8000
